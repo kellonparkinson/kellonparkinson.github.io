@@ -40,17 +40,17 @@ nav {
         width: 125px;
         height: 52px;
         background-color: #baff43;
+        box-shadow: 6px 6px #16676e;
     }
 
 .main-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
     width: 100%;
-    height: 100%;
-    background: transparent;
+    height: 85%;
 }
 
 .info-container {
@@ -65,6 +65,10 @@ nav {
     color: #baff43;
     margin: 4px;
     font-size: 28px;
+    position: relative;
+    left: -113px;
+    opacity: 0.3;
+    height: 35px;
 }
 
 .name {
@@ -101,4 +105,23 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.divider {
+    height: 565px;
+    width: 6px;
+    background-color: #16676e;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.showcase-container {
+    width: 600px;
+    height: 490px;
+    background-color: #fff;
+    margin: 50px;
+    position: relative;
+    top: 22px;
+    border-radius: 12px;
+    box-shadow: 16px 16px #baff43;
 }
